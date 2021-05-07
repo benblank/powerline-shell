@@ -26,12 +26,6 @@ __license__   = 'WTFPL http://sam.zoy.org/wtfpl/'
 #---------------------------------------------------------------------
 
 
-def hexstr2num(hexstr):
-    return int(hexstr, 16)
-
-def rgbstring2tuple(s):
-    return tuple([hexstr2num(h) for h in (s[:2], s[2:4], s[4:])])
-
 RGB2SHORT_DICT = {
     (0, 0, 0):     16,
     (0, 0, 95):    17,
