@@ -19,15 +19,15 @@ class RepoStats(object):
         'detached': u'\u2693',
         'ahead': u'\u2B06',
         'behind': u'\u2B07',
-        'staged': u'\u2714',
-        'changed': u'\u270E',
+        'staged': u'\u2714\uFE0F',
+        'changed': u'\u270E\uFE0F',
         'new': u'?',
-        'conflicted': u'\u273C',
-        'stash': u'\u2398',
+        'conflicted': u'\u273C\uFE0F',
+        'stash': u'\u2398\uFE0F',
         'git': u'\uE0A0',
         'hg': u'\u263F',
         'bzr': u'\u2B61\u20DF',
-        'fossil': u'\u2332',
+        'fossil': u'\u2332\uFE0F',
         'svn': u'\u2446'
     }
 
